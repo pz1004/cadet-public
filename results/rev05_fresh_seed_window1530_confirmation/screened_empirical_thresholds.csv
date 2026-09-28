@@ -1,0 +1,5 @@
+detector,env_id,empirical_threshold,target_far,calibration_runs,selected_channels,screen_max_statistic,arms
+CADET_screened,HalfCheetah-v5,0.8,0.05,20,35,0.85,scale+dynamics
+MMD_screened,HalfCheetah-v5,1.2582431932699585,0.05,20,35,0.85,scale+dynamics
+CADET_screened,Walker2d-v5,0.0,0.05,20,9,0.85,scale+dynamics
+MMD_screened,Walker2d-v5,0.0,0.05,20,9,0.85,scale+dynamics

@@ -1,0 +1,46 @@
+{
+  "arms": [
+    "scale",
+    "dynamics"
+  ],
+  "calibration_runs": 20,
+  "calibration_seed": 61000000,
+  "dense_cauchy": false,
+  "dense_cauchy_fraction": 0.5,
+  "dynamics_window": 30,
+  "eval_runs": 20,
+  "evaluation_seed": 63000000,
+  "friction_scale": 1.8,
+  "gravity_scale": 1.45,
+  "heldout_runs": 20,
+  "heldout_seed": 62000000,
+  "horizon": 600,
+  "load_traces": null,
+  "mujoco_actuator_loss_scale": 0.55,
+  "mujoco_envs": [
+    "HalfCheetah-v5",
+    "Walker2d-v5"
+  ],
+  "mujoco_feature_mode": "physics_residual_probe",
+  "mujoco_frozen_buffer_size": 64,
+  "mujoco_policy_mode": "linear_actor",
+  "mujoco_policy_std": 0.05,
+  "mujoco_probe_update_mode": "online",
+  "mujoco_sensor_bias_scale": 0.35,
+  "save_traces": "results/rev05_fresh_seed_window1530_confirmation/traces",
+  "scale_window": 15,
+  "scenarios": [
+    "no_shift",
+    "gravity",
+    "friction"
+  ],
+  "screen_exclude_regex": [],
+  "screen_include_regex": [],
+  "screen_max_statistic": 0.85,
+  "screened_baselines": [
+    "MMD"
+  ],
+  "target_far": 0.05,
+  "tau": 300,
+  "warmup": 80
+}

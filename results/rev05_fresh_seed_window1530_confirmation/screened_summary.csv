@@ -1,0 +1,13 @@
+detector,env_id,scenario,runs,false_alarm_rate,detection_rate,mean_delay_censored,mean_delay_detected,median_delay_detected,arl0_truncated,false_alarm_count,far_ci_lower,far_ci_upper,far_ci_confidence
+CADET_screened,HalfCheetah-v5,friction,20,0.05,0.0,300.0,,,,1,0.0012650894979498047,0.24873276277202777,0.95
+CADET_screened,HalfCheetah-v5,gravity,20,0.0,1.0,15.0,15.0,15.0,,0,0.0,0.1684334709830853,0.95
+CADET_screened,HalfCheetah-v5,no_shift,20,0.0,,,,,600.0,0,0.0,0.1684334709830853,0.95
+CADET_screened,Walker2d-v5,friction,20,0.0,0.95,47.4,34.10526315789474,15.0,,0,0.0,0.1684334709830853,0.95
+CADET_screened,Walker2d-v5,gravity,20,0.0,0.0,300.0,,,,0,0.0,0.1684334709830853,0.95
+CADET_screened,Walker2d-v5,no_shift,20,0.0,,,,,600.0,0,0.0,0.1684334709830853,0.95
+MMD_screened,HalfCheetah-v5,friction,20,0.0,0.05,286.55,31.0,31.0,,0,0.0,0.1684334709830853,0.95
+MMD_screened,HalfCheetah-v5,gravity,20,0.0,1.0,16.2,16.2,15.0,,0,0.0,0.1684334709830853,0.95
+MMD_screened,HalfCheetah-v5,no_shift,20,0.0,,,,,600.0,0,0.0,0.1684334709830853,0.95
+MMD_screened,Walker2d-v5,friction,20,0.0,0.95,48.9,35.68421052631579,13.0,,0,0.0,0.1684334709830853,0.95
+MMD_screened,Walker2d-v5,gravity,20,0.0,0.0,300.0,,,,0,0.0,0.1684334709830853,0.95
+MMD_screened,Walker2d-v5,no_shift,20,0.0,,,,,600.0,0,0.0,0.1684334709830853,0.95

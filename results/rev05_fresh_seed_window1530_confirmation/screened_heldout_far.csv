@@ -1,0 +1,5 @@
+detector,env_id,empirical_threshold,target_far,heldout_runs,heldout_false_alarms,heldout_far,far_ci_lower,far_ci_upper,confidence,selected_channels,status,reason
+CADET_screened,HalfCheetah-v5,0.8,0.05,20,1,0.05,0.0012650894979498047,0.24873276277202777,0.95,35,admissible,held-out point FAR within target
+MMD_screened,HalfCheetah-v5,1.2582431932699585,0.05,20,0,0.0,0.0,0.1684334709830853,0.95,35,admissible,held-out point FAR within target
+CADET_screened,Walker2d-v5,0.0,0.05,20,0,0.0,0.0,0.1684334709830853,0.95,9,admissible,held-out point FAR within target
+MMD_screened,Walker2d-v5,0.0,0.05,20,0,0.0,0.0,0.1684334709830853,0.95,9,admissible,held-out point FAR within target

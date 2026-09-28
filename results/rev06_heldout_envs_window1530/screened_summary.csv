@@ -1,0 +1,13 @@
+detector,env_id,scenario,runs,false_alarm_rate,detection_rate,mean_delay_censored,mean_delay_detected,median_delay_detected,arl0_truncated,false_alarm_count,far_ci_lower,far_ci_upper,far_ci_confidence
+CADET_screened,Ant-v5,friction,20,0.0,0.0,300.0,,,,0,0.0,0.1684334709830853,0.95
+CADET_screened,Ant-v5,gravity,20,0.0,0.0,300.0,,,,0,0.0,0.1684334709830853,0.95
+CADET_screened,Ant-v5,no_shift,20,0.0,,,,,600.0,0,0.0,0.1684334709830853,0.95
+CADET_screened,Hopper-v5,friction,20,0.0,0.9,78.75,54.166666666666664,30.0,,0,0.0,0.1684334709830853,0.95
+CADET_screened,Hopper-v5,gravity,20,0.0,0.0,300.0,,,,0,0.0,0.1684334709830853,0.95
+CADET_screened,Hopper-v5,no_shift,20,0.0,,,,,600.0,0,0.0,0.1684334709830853,0.95
+MMD_screened,Ant-v5,friction,20,0.0,0.0,300.0,,,,0,0.0,0.1684334709830853,0.95
+MMD_screened,Ant-v5,gravity,20,0.0,0.0,300.0,,,,0,0.0,0.1684334709830853,0.95
+MMD_screened,Ant-v5,no_shift,20,0.0,,,,,600.0,0,0.0,0.1684334709830853,0.95
+MMD_screened,Hopper-v5,friction,20,0.0,1.0,13.95,13.95,11.5,,0,0.0,0.1684334709830853,0.95
+MMD_screened,Hopper-v5,gravity,20,0.0,0.0,300.0,,,,0,0.0,0.1684334709830853,0.95
+MMD_screened,Hopper-v5,no_shift,20,0.0,,,,,600.0,0,0.0,0.1684334709830853,0.95

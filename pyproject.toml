@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools==75.1.0", "wheel==0.44.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cadet-rl"
+version = "1.0.0"
+description = "Saved-array replay of the two CADET second-round confirmations."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy==1.26.4", "pandas==2.2.2", "scipy==1.13.1"]
+
+[project.urls]
+Repository = "https://github.com/pz1004/cadet-public"
+
+[tool.setuptools.packages.find]
+include = ["cadet"]
+exclude = ["results*", "scripts*"]

@@ -1,0 +1,5 @@
+detector,env_id,empirical_threshold,target_far,calibration_runs,selected_channels,screen_max_statistic,arms
+CADET_screened,Hopper-v5,0.4271049823295941,0.05,20,19,0.85,scale+dynamics
+MMD_screened,Hopper-v5,0.0,0.05,20,19,0.85,scale+dynamics
+CADET_screened,Ant-v5,0.0,0.05,20,12,0.85,scale+dynamics
+MMD_screened,Ant-v5,0.0,0.05,20,12,0.85,scale+dynamics

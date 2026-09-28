@@ -1,0 +1,5 @@
+detector,env_id,empirical_threshold,target_far,heldout_runs,heldout_false_alarms,heldout_far,far_ci_lower,far_ci_upper,confidence,selected_channels,status,reason
+CADET_screened,Hopper-v5,0.4271049823295941,0.05,20,0,0.0,0.0,0.1684334709830853,0.95,19,admissible,held-out point FAR within target
+MMD_screened,Hopper-v5,0.0,0.05,20,0,0.0,0.0,0.1684334709830853,0.95,19,admissible,held-out point FAR within target
+CADET_screened,Ant-v5,0.0,0.05,20,0,0.0,0.0,0.1684334709830853,0.95,12,admissible,held-out point FAR within target
+MMD_screened,Ant-v5,0.0,0.05,20,0,0.0,0.0,0.1684334709830853,0.95,12,admissible,held-out point FAR within target
