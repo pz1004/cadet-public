@@ -1,0 +1,54 @@
+# Public release allowlist: new files stay local until explicitly approved here.
+*
+
+# Root usage guide and project configuration.
+!/.gitignore
+!/README.md
+!/pyproject.toml
+
+# Current core package modules.
+!/cadet/
+!/cadet/__init__.py
+!/cadet/baselines.py
+!/cadet/calibration.py
+!/cadet/detectors.py
+!/cadet/evaluation.py
+!/cadet/experiments.py
+!/cadet/mujoco.py
+!/cadet/residualization.py
+!/cadet/simulation.py
+!/cadet/utils.py
+
+# General experiment runners and their package initializer.
+!/scripts/
+!/scripts/__init__.py
+!/scripts/run_experiments.py
+!/scripts/exp001_synthetic_matched_far.py
+!/scripts/exp002_synthetic_baseline_calibration.py
+!/scripts/exp003_empirical_baseline_calibration.py
+!/scripts/exp004_synthetic_empirical_calibrated.py
+!/scripts/exp006_mujoco_empirical_calibrated.py
+!/scripts/exp007_channel_screened_cadet.py
+
+# Self-contained public tests only.
+!/tests/
+!/tests/test_cadet.py
+
+# Python caches, local environments, and generated output remain ignored.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv*/
+venv/
+.tools/
+build/
+dist/
+
+# Private research material stays on disk and outside the public file set.
+# The default rule also excludes revision scripts/tests, archives, bibliography
+# files, literature notes, cleanup reports, and any future root documents.
+/paper/
+/results/
+/traces/
+/bibitems/
